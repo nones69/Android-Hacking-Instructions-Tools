@@ -1,0 +1,8 @@
+C:\MobileToolkitAI\
+├── assets\
+├── drivers\
+├── modules\
+├── profiles\
+├── logs\
+├── main.py
+├── requirements.txt
