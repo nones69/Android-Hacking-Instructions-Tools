@@ -1,0 +1,16 @@
+Mobile Device Toolkit (MDT) - Installer Information
+
+Welcome to the MDT setup!
+
+This toolkit is designed for Windows 11/10 64-bit and provides:
+- Android & iOS device detection
+- Rubber Ducky payload engine
+- Firmware flashing
+- HID emulation
+- Real-time logs and more
+
+By proceeding, you agree to use this tool for authorized device management, repair, and research only. Please comply with all applicable laws.
+
+For support and documentation, see the README or visit the official project page.
+
+Click Next to continue with installation.
