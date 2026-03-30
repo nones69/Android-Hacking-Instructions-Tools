@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.5015753" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fde9e6d0-3610-4987-8dc9-fb4c5dab2a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MobileDeviceToolkit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FINAL_IMPLEMENTATION_SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MobileDeviceToolkit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_PYSIDE_MIGRATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScriptConverterInstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI_IMPLEMENTATION_SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/adb_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/driver_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/firmware_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/ios_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/payload_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/adb_commands_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/device_info_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/device_info_panel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/drivers_tab_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/firmware_downloader_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/omg_emulator_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/payload_manager_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/root_jailbreak_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/window_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/usb_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chatbot_memory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnose_pyqt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enhanced_pyqt5_dll_fix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fix_pyqt5_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_world.duck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payloads.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payloads_fallback.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_converter_initializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/ducky_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/keyboard_injector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/script_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/main_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/real_time_push.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use_pyside.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="30hSLsREgf3EdqGJbcYzDGTHspG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.MobileDeviceToolkit.executor": "Debug",
+    "Python.__init__ (1).executor": "Debug",
+    "Python.__init__ (2).executor": "Debug",
+    "Python.__init__.executor": "Debug",
+    "Python.adb_frame.executor": "Debug",
+    "Python.adb_manager.executor": "Debug",
+    "Python.adb_service.executor": "Debug",
+    "Python.config_parser.executor": "Debug",
+    "Python.dashboard_frame.executor": "Debug",
+    "Python.device.executor": "Debug",
+    "Python.device_manager.executor": "Debug",
+    "Python.device_panel.executor": "Debug",
+    "Python.driver_manager.executor": "Debug",
+    "Python.ducky_engine.executor": "Debug",
+    "Python.ducky_frame.executor": "Debug",
+    "Python.error_handler.executor": "Debug",
+    "Python.fastboot_service.executor": "Debug",
+    "Python.firmware_manager.executor": "Debug",
+    "Python.firmware_panel.executor": "Debug",
+    "Python.hid_fallback_frame.executor": "Debug",
+    "Python.icloud_bypass.executor": "Debug",
+    "Python.imei_manager.executor": "Debug",
+    "Python.ios_service.executor": "Debug",
+    "Python.keyboard_injector.executor": "Debug",
+    "Python.logger.executor": "Debug",
+    "Python.main (1).executor": "Debug",
+    "Python.main (2).executor": "Debug",
+    "Python.main.executor": "Debug",
+    "Python.main_customtk.executor": "Debug",
+    "Python.main_new.executor": "Debug",
+    "Python.main_new_design.executor": "Debug",
+    "Python.main_pyqt5_design.executor": "Debug",
+    "Python.main_window.executor": "Debug",
+    "Python.mobile_device_toolkit.executor": "Debug",
+    "Python.payload_service.executor": "Debug",
+    "Python.payloads_frame.executor": "Debug",
+    "Python.repair_frame.executor": "Debug",
+    "Python.security_frame.executor": "Debug",
+    "Python.security_manager.executor": "Debug",
+    "Python.security_panel.executor": "Debug",
+    "Python.test_debugger_fix.executor": "Debug",
+    "Python.test_main.executor": "Debug",
+    "Python.test_pillow_binary.executor": "Debug",
+    "Python.test_pillow_install.executor": "Debug",
+    "Python.test_pillow_latest.executor": "Debug",
+    "Python.test_pillow_versions.executor": "Debug",
+    "Python.test_requirements.executor": "Debug",
+    "Python.test_toolkit.executor": "Debug",
+    "RunOnceActivity.ChatTagsLlmMigration": "true",
+    "RunOnceActivity.ClientConfigCleanupMigration": "true",
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
+    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "C:/Users/memyd/OneDrive/Desktop/MobileDeviceToolkit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.android.studio.ml.templates",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="nim.task.build.to.cache" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileDeviceToolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MobileDeviceToolkit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MobileDeviceToolkit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MobileDeviceToolkit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.PythonAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MobileDeviceToolkit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_new_design" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MobileDeviceToolkit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_new_design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_pyqt5_design" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MobileDeviceToolkit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_pyqt5_design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.MobileDeviceToolkit" />
+      <item itemvalue="Python.main_pyqt5_design" />
+      <item itemvalue="Python.main_new_design" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main_new_design" />
+        <item itemvalue="Python.main_pyqt5_design" />
+        <item itemvalue="Python.MobileDeviceToolkit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fde9e6d0-3610-4987-8dc9-fb4c5dab2a40" name="Changes" comment="" />
+      <created>1754078258195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754078258195</updated>
+      <workItem from="1754078259243" duration="355000" />
+      <workItem from="1754078625738" duration="4032000" />
+      <workItem from="1754099204621" duration="38440000" />
+      <workItem from="1754264311968" duration="4562000" />
+      <workItem from="1754298584952" duration="71737000" />
+      <workItem from="1754743693898" duration="53000" />
+      <workItem from="1756235299314" duration="507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_toolkit.coverage" NAME="test_toolkit Coverage Results" MODIFIED="1754185788199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$hid_fallback_frame.coverage" NAME="hid_fallback_frame Coverage Results" MODIFIED="1754192243959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1754179115278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$MobileDeviceToolkit.coverage" NAME="MobileDeviceToolkit Coverage Results" MODIFIED="1754192144399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$firmware_manager.coverage" NAME="firmware_manager Coverage Results" MODIFIED="1754186154623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$security_frame.coverage" NAME="security_frame Coverage Results" MODIFIED="1754192227717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1754192272458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$dashboard_frame.coverage" NAME="dashboard_frame Coverage Results" MODIFIED="1754192262097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$repair_frame.coverage" NAME="repair_frame Coverage Results" MODIFIED="1754192231757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$imei_manager.coverage" NAME="imei_manager Coverage Results" MODIFIED="1754186127137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_debugger_fix.coverage" NAME="test_debugger_fix Coverage Results" MODIFIED="1754192135383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$device_panel.coverage" NAME="device_panel Coverage Results" MODIFIED="1754192257109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$payloads_frame.coverage" NAME="payloads_frame Coverage Results" MODIFIED="1754192235397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1754192170294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$main_new.coverage" NAME="main_new Coverage Results" MODIFIED="1754602050140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_requirements.coverage" NAME="test_requirements Coverage Results" MODIFIED="1754185795524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$icloud_bypass.coverage" NAME="icloud_bypass Coverage Results" MODIFIED="1754186147570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$security_panel.coverage" NAME="security_panel Coverage Results" MODIFIED="1754192224497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$main_new_design.coverage" NAME="main_new_design Coverage Results" MODIFIED="1754599979118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$ducky_engine.coverage" NAME="ducky_engine Coverage Results" MODIFIED="1754186350245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$device_manager.coverage" NAME="device_manager Coverage Results" MODIFIED="1754186376345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$fastboot_service.coverage" NAME="fastboot_service Coverage Results" MODIFIED="1754192208487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/services" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$security_manager.coverage" NAME="security_manager Coverage Results" MODIFIED="1754186028982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$adb_service.coverage" NAME="adb_service Coverage Results" MODIFIED="1754192212882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/services" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$main.coverage" NAME="main Coverage Results" MODIFIED="1754599340654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$keyboard_injector.coverage" NAME="keyboard_injector Coverage Results" MODIFIED="1754186043310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1754192239226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$adb_frame.coverage" NAME="adb_frame Coverage Results" MODIFIED="1754192266200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$error_handler.coverage" NAME="error_handler Coverage Results" MODIFIED="1754192183832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$device.coverage" NAME="device Coverage Results" MODIFIED="1754186387541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$logger.coverage" NAME="logger Coverage Results" MODIFIED="1754192178921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$payload_service.coverage" NAME="payload_service Coverage Results" MODIFIED="1754192197971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/services" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$driver_manager.coverage" NAME="driver_manager Coverage Results" MODIFIED="1754186366716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_pillow_versions.coverage" NAME="test_pillow_versions Coverage Results" MODIFIED="1754185800212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_pillow_latest.coverage" NAME="test_pillow_latest Coverage Results" MODIFIED="1754185806968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$config_parser.coverage" NAME="config_parser Coverage Results" MODIFIED="1754192187102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1754192217397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/services" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_pillow_binary.coverage" NAME="test_pillow_binary Coverage Results" MODIFIED="1754185819240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$ios_service.coverage" NAME="ios_service Coverage Results" MODIFIED="1754192203687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/services" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_main.coverage" NAME="test_main Coverage Results" MODIFIED="1754185826418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$test_pillow_install.coverage" NAME="test_pillow_install Coverage Results" MODIFIED="1754185811753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$adb_manager.coverage" NAME="adb_manager Coverage Results" MODIFIED="1754186393502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/core" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$firmware_panel.coverage" NAME="firmware_panel Coverage Results" MODIFIED="1754192248048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+    <SUITE FILE_PATH="coverage/MobileDeviceToolkit$ducky_frame.coverage" NAME="ducky_frame Coverage Results" MODIFIED="1754192252256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/gui" />
+  </component>
+</project>
